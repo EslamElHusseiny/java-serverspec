@@ -4,7 +4,11 @@ Testing java puppet module "https://github.com/EslamElHusseiny/puppet-java" usin
 ## Testing steps 
 
 $ bundle install 
+
 $ kitchen create 
+
 $ librarian-puppet install
+
 $ kitchen converge
+
 $ kitchen verify
