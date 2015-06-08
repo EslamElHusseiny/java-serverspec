@@ -1,0 +1,6 @@
+.tmp/
+modules/
+*.lock
+.ruby*
+.kitchen
+.librarian
