@@ -7,5 +7,5 @@ forge "https://forgeapi.puppetlabs.com"
 modulefile
 
 mod "java",
-  :git => "git@github.com:cakesolutions/puppet-java.git",
+  :git => "https://github.com/cakesolutions/puppet-java.git",
   :ref => "0.0.4"
