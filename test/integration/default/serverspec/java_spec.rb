@@ -3,7 +3,7 @@ require 'serverspec'
 set :backend, :exec
 
 
-describe package('jdk') do
+describe package('jdk-1.7.0_79-fcs.x86_64') do
 	it { should be_installed.by('rpm').with_version('1.7.0_79-fcs.x86_64') }
 end
 
