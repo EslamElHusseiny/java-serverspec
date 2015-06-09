@@ -4,7 +4,7 @@ set :backend, :exec
 
 
 describe package('jdk') do
-	it { should be_installed }
+	it { should be_installed.by('rpm').with_version('1.7.0_79-fcs') }
 end
 
 describe file('/etc/profile.d/java.sh') do
