@@ -17,5 +17,5 @@ end
 
 describe file('/usr/java/latest') do
 	it { should be_symlink }
-	it { should be_lined_to '/usr/java/jdk1.7.0_79' }
+	it { should be_linked_to '/usr/java/jdk1.7.0_79' }
 end
