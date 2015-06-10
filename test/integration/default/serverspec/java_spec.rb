@@ -3,7 +3,7 @@ require 'serverspec'
 set :backend, :exec
 
 ## checking successfull puppet run
-describe command('grep fail /var/lib/puppet/state/last_run_summary.yaml |grep -v "fail.*:\ 0”’) do
+describe command('grep fail /var/lib/puppet/state/last_run_summary.yaml |grep -v "fail.*:\ 0”') do
   its(:exit_status) { should eq 1 }
 end
 
