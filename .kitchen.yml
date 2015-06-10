@@ -4,7 +4,7 @@ driver:
 
 provisioner:
   name: puppet_apply
-  puppet_version: "latest"
+  puppet_version: "3.8.1"
   mainfests_path: manifests
   modules_path: modules
 
